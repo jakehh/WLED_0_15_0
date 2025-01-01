@@ -2,8 +2,7 @@ name: WLED Build
 
 # Only included into other workflows
 on:
-  #workflow_call:
-  workflow_dispatch:
+  workflow_call:
   
 jobs:
 
