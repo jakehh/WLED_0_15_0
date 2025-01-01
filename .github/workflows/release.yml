@@ -1,10 +1,11 @@
 name: WLED Release CI
 
 on:
-  push:
-    tags:
-      - '*'
+  #push:
+    
   workflow_dispatch:
+  tags:
+      - '*'
 
 jobs:
   
